@@ -1,5 +1,7 @@
 # Zhuatech ExpenseAI
 
+[简体中文](README.md) | [English](README.en.md)
+
 费用合规不是简单的“金额是否超标”。ExpenseAI 社区版把票据验真、重复指纹、费用制度、商户风险、消费时间和大额门槛放在同一条可解释审核链路中。
 
 **维护单位：** [知华科技｜上海如静知华信息科技有限公司](https://www.zhuatech.cn/)　**包名：** `cn.zhuatech.expenseai`
