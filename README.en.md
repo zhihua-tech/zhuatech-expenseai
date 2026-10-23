@@ -1,5 +1,9 @@
 [简体中文](README.md) | **English**
 
+## Functional update: Expense receipt duplicate grouping
+
+Groups normalized issuer and receipt numbers, distinguishing duplicate candidates from conflicting currency or amount records. Signed-in users can edit inputs and export real computed results. See [API, examples and limitations](docs/AI_OPERATIONS_UPGRADE_20261023.md). No external model calls or automatic business changes; existing licensing and contacts remain unchanged.
+
 # ZhuaTech ExpenseAI
 
 > A source-available enterprise project by [ZhuaTech](https://www.zhuatech.cn/) for enterprise finance, planning, settlement, and risk control.
