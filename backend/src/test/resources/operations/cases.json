@@ -1,0 +1,65 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "REVIEW",
+      "policyAllowed": "#1200",
+      "employeePayableCandidate": "#700"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "nightCap": "500"
+    },
+    "expected": {
+      "decision": "PASS",
+      "employeePayableCandidate": "#1000"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "companyPaid": "1300"
+    },
+    "expected": {
+      "decision": "HOLD",
+      "employeePayableCandidate": "#0"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "companyPaid": "1501"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "roomNights": "0"
+    },
+    "expected": {},
+    "error": true
+  },
+  {
+    "patch": {
+      "receiptAmount": "0",
+      "companyPaid": "0",
+      "roomNights": "0"
+    },
+    "expected": {
+      "decision": "PASS"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "companyPaid": "1200"
+    },
+    "expected": {
+      "employeePayableCandidate": "#0"
+    },
+    "error": false
+  }
+]
